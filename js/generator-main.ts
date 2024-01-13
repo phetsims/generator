@@ -9,33 +9,35 @@
 import Sim, { SimOptions } from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
-import GeneratorScreen from './generator/GeneratorScreen.js';
 import GeneratorStrings from './GeneratorStrings.js';
-import './common/GeneratorQueryParameters.js';
+import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
+import FELPreferencesNode from '../../faradays-electromagnetic-lab/js/common/view/preferences/FELPreferencesNode.js';
+import FELConstants from '../../faradays-electromagnetic-lab/js/common/FELConstants.js';
+import GeneratorScreen from '../../faradays-electromagnetic-lab/js/generator/GeneratorScreen.js';
 
-// Launch the sim. Beware that scenery Image nodes created outside simLauncher.launch() will have zero bounds
-// until the images are fully loaded. See https://github.com/phetsims/coulombs-law/issues/70#issuecomment-429037461
 simLauncher.launch( () => {
 
-  const titleStringProperty = GeneratorStrings[ 'generator' ].titleStringProperty;
+  const titleStringProperty = GeneratorStrings.generator.titleStringProperty;
 
   const screens = [
-    new GeneratorScreen( { tandem: Tandem.ROOT.createTandem( 'generatorScreen' ) } )
+    new GeneratorScreen( Tandem.ROOT.createTandem( 'generatorScreen' ) )
   ];
 
   const options: SimOptions = {
-
-    //TODO fill in credits, all of these fields are optional, see joist.CreditsNode
-    credits: {
-      leadDesign: '',
-      softwareDevelopment: '',
-      team: '',
-      contributors: '',
-      qualityAssurance: '',
-      graphicArts: '',
-      soundDesign: '',
-      thanks: ''
-    }
+    credits: FELConstants.CREDITS,
+    preferencesModel: new PreferencesModel( {
+      visualOptions: {
+        supportsProjectorMode: true
+      },
+      simulationOptions: {
+        customPreferences: [ {
+          createContent: tandem => new FELPreferencesNode( {
+            hasEarthFeature: false,
+            tandem: tandem.createTandem( 'simPreferences' )
+          } )
+        } ]
+      }
+    } )
   };
 
   const sim = new Sim( titleStringProperty, screens, options );

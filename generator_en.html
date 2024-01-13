@@ -36,14 +36,23 @@
         "requirejsNamespace": "GENERATOR",
         "simulation": true,
         "runnable": true,
-        "readmeCreatedManually": true,
         "supportedBrands": [
           "phet",
+          "phet-io",
           "adapted-from-phet"
+        ],
+        "phetLibs": [
+          "faradays-electromagnetic-lab"
         ],
         "supportsOutputJS": true,
         "simFeatures": {
-          "supportsDynamicLocale": true
+          "supportsSound": true,
+          "supportsDynamicLocale": true,
+          "supportsInteractiveDescription": true,
+          "colorProfiles": [
+            "default",
+            "projector"
+          ]
         }
       },
       "eslintConfig": {
@@ -72,16 +81,20 @@
   window.phet.chipper.stringRepos =
     [
       {
+        "repo": "faradays-electromagnetic-lab",
+        "requirejsNamespace": "FARADAYS_ELECTROMAGNETIC_LAB"
+      },
+      {
+        "repo": "generator",
+        "requirejsNamespace": "GENERATOR"
+      },
+      {
         "repo": "joist",
         "requirejsNamespace": "JOIST"
       },
       {
         "repo": "scenery-phet",
         "requirejsNamespace": "SCENERY_PHET"
-      },
-      {
-        "repo": "generator",
-        "requirejsNamespace": "GENERATOR"
       },
       {
         "repo": "sun",
