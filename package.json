@@ -21,6 +21,9 @@
     "phetLibs": [
       "faradays-electromagnetic-lab"
     ],
+    "phet-io": {
+      "compareDesignedAPIChanges": true
+    },
     "supportsOutputJS": true,
     "simFeatures": {
       "supportsSound": true,
