@@ -17,6 +17,8 @@ simLauncher.launch( () => {
   const screens = [
     new GeneratorScreen( Tandem.ROOT.createTandem( 'generatorScreen' ) )
   ];
-  const sim = new FELSim( titleStringProperty, screens, false /* hasEarthFeature */ );
+  const sim = new FELSim( titleStringProperty, screens, {
+    hasEarthFeature: false
+  } );
   sim.start();
 } );
