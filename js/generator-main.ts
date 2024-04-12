@@ -11,14 +11,16 @@ import Tandem from '../../tandem/js/Tandem.js';
 import GeneratorStrings from './GeneratorStrings.js';
 import GeneratorScreen from '../../faradays-electromagnetic-lab/js/generator/GeneratorScreen.js';
 import FELSim from '../../faradays-electromagnetic-lab/js/common/FELSim.js';
+import FELPreferences from '../../faradays-electromagnetic-lab/js/common/model/FELPreferences.js';
 
 simLauncher.launch( () => {
   const titleStringProperty = GeneratorStrings.generator.titleStringProperty;
-  const screens = [
-    new GeneratorScreen( Tandem.ROOT.createTandem( 'generatorScreen' ) )
-  ];
-  const sim = new FELSim( titleStringProperty, screens, {
+  const preferences = new FELPreferences( {
     hasEarthFeature: false
   } );
+  const screens = [
+    new GeneratorScreen( preferences, Tandem.ROOT.createTandem( 'generatorScreen' ) )
+  ];
+  const sim = new FELSim( titleStringProperty, screens, preferences );
   sim.start();
 } );
