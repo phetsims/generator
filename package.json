@@ -19,7 +19,8 @@
       "adapted-from-phet"
     ],
     "phetLibs": [
-      "faradays-electromagnetic-lab"
+      "faradays-electromagnetic-lab",
+      "bamboo"
     ],
     "phet-io": {
       "compareDesignedAPIChanges": true
