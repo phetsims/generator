@@ -23,7 +23,7 @@
   window.phet.chipper.packageObject =
     {
       "name": "generator",
-      "version": "1.0.0-dev.0",
+      "version": "1.1.0-dev.0",
       "license": "GPL-3.0",
       "repository": {
         "type": "git",
@@ -42,8 +42,12 @@
           "adapted-from-phet"
         ],
         "phetLibs": [
-          "faradays-electromagnetic-lab"
+          "faradays-electromagnetic-lab",
+          "bamboo"
         ],
+        "phet-io": {
+          "compareDesignedAPIChanges": true
+        },
         "supportsOutputJS": true,
         "simFeatures": {
           "supportsSound": true,
@@ -79,6 +83,10 @@
     };
   window.phet.chipper.stringRepos =
     [
+      {
+        "repo": "bamboo",
+        "requirejsNamespace": "BAMBOO"
+      },
       {
         "repo": "faradays-electromagnetic-lab",
         "requirejsNamespace": "FARADAYS_ELECTROMAGNETIC_LAB"
