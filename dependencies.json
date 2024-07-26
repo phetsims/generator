@@ -1,5 +1,5 @@
 {
-  "comment": "# generator 1.0.0-rc.1 Thu Jul 25 2024 15:31:32 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# generator 1.0.0-rc.1 Fri Jul 26 2024 16:33:17 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -25,11 +25,11 @@
     "branch": "HEAD"
   },
   "faradays-electromagnetic-lab": {
-    "sha": "20e24976fc9c74d7e160d6c900ae66ec74299244",
+    "sha": "de9fa788a53414aed4a9d901f137c14cae858cfa",
     "branch": "generator-1.0"
   },
   "generator": {
-    "sha": "6600ae40a7b9af2499224075205b4cbfaeac6c99",
+    "sha": "66bbc2a68137a211b751579266bafc43c35201bf",
     "branch": "1.0"
   },
   "joist": {
