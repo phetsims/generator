@@ -6,12 +6,12 @@
  * @author Chris Malley (PixelZoom, Inc.)
  */
 
+import FELSim from '../../faradays-electromagnetic-lab/js/common/FELSim.js';
+import FELPreferences from '../../faradays-electromagnetic-lab/js/common/model/FELPreferences.js';
+import GeneratorScreen from '../../faradays-electromagnetic-lab/js/generator/GeneratorScreen.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import GeneratorStrings from './GeneratorStrings.js';
-import GeneratorScreen from '../../faradays-electromagnetic-lab/js/generator/GeneratorScreen.js';
-import FELSim from '../../faradays-electromagnetic-lab/js/common/FELSim.js';
-import FELPreferences from '../../faradays-electromagnetic-lab/js/common/model/FELPreferences.js';
 
 simLauncher.launch( () => {
   const titleStringProperty = GeneratorStrings.generator.titleStringProperty;
