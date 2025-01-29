@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "c6c8dbcbb4d98900c756c7fb0fe8e1b516325fff",
+    "sha": "80907cf01ba7fef64c6e2dfe211121c7a73430ee",
     "branch": "HEAD"
   },
   "dot": {
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "generator": {
-    "sha": "2b324f6ea907b3654e78f85eca6723f67bf143bb",
+    "sha": "1d6ef58c8f7a8b3cc61ee1d9be1b537a7a126963",
     "branch": "1.0"
   },
   "joist": {
@@ -57,7 +57,7 @@
     "branch": "HEAD"
   },
   "phet-io-wrappers": {
-    "sha": "63e552539446eb640a97f287f693f22a0060c09b",
+    "sha": "10263887ee4bc31dc86424dba8356650cd8e2c0e",
     "branch": "HEAD"
   },
   "phetcommon": {
