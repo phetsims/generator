@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "80907cf01ba7fef64c6e2dfe211121c7a73430ee",
+    "sha": "4eb17ffefc7d398eecca448f27915bcea334e2f4",
     "branch": "HEAD"
   },
   "dot": {
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "generator": {
-    "sha": "5bb3a546ca45698a4aa0f423c8227cc43adaae6d",
+    "sha": "aa3dbd66d5228ed1797d6cac5ea1342a1540cc83",
     "branch": "1.0"
   },
   "joist": {
