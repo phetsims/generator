@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "generator": {
-    "sha": "ebdeab3f8483077636d9718a6df5aaada19fb2e8",
+    "sha": "8202ba78046676fb94d1b054743fee76d3e8d527",
     "branch": "1.0"
   },
   "joist": {
@@ -49,7 +49,7 @@
     "branch": "HEAD"
   },
   "phet-io": {
-    "sha": "61bd53be3ef3cff176dda2c5d0dc5c9143f790f2",
+    "sha": "3e1efeef2022e07e84eeb491cbcf84fc34ac5a7b",
     "branch": "HEAD"
   },
   "phet-io-sim-specific": {
