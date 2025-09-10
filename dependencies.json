@@ -1,5 +1,5 @@
 {
-  "comment": "# generator 1.0.3 Tue Jun 10 2025 16:21:31 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# generator 1.0.4-rc.1 Tue Sep 09 2025 21:40:21 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "generator": {
-    "sha": "ad3502d700ca8649d339cd2103fb8a4c34691307",
+    "sha": "6c2b61359c13ea5da44340c8ecb22eba9464d7ab",
     "branch": "1.0"
   },
   "joist": {
