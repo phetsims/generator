@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "generator": {
-    "sha": "556b1c42a9649abd3830515d4271ddf84971a04a",
+    "sha": "ad3502d700ca8649d339cd2103fb8a4c34691307",
     "branch": "1.0"
   },
   "joist": {
@@ -77,7 +77,7 @@
     "branch": "HEAD"
   },
   "scenery-phet": {
-    "sha": "d2d36ff3e1f0c98a5f9b36d083a31f3d6b7f84dd",
+    "sha": "38b0d9c5ad2d1558e7d7ac5bd48fc5541178893d",
     "branch": "HEAD"
   },
   "sherpa": {
