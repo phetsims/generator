@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "generator": {
-    "sha": "e8b82d453459360832657a96dd1a1b26554092a4",
+    "sha": "7cdf8fb285e88dbcab715ad8ab6aa2df02588339",
     "branch": "1.0"
   },
   "joist": {
@@ -61,7 +61,7 @@
     "branch": "HEAD"
   },
   "phetcommon": {
-    "sha": "3c1fb92580c5c4ed9f8684a046c3b452a41d9479",
+    "sha": "436eeb9e89fcac3074d9d43d89a3fbb18c6eb2f4",
     "branch": "HEAD"
   },
   "phetmarks": {
