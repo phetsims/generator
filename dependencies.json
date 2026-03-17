@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "brand": {
-    "sha": "9a54409935b3823d8c525b1efa57d8d5cd21c9d4",
+    "sha": "3aae05b8b97081e7f2952702d1bd3eccd1cf5522",
     "branch": "HEAD"
   },
   "chipper": {
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "generator": {
-    "sha": "7cdf8fb285e88dbcab715ad8ab6aa2df02588339",
+    "sha": "c862ef397ed30e79a61e4e06dd328649dd542875",
     "branch": "1.0"
   },
   "joist": {
