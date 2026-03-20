@@ -22,6 +22,4 @@ type StringsType = {
 
 const GeneratorStrings = getStringModule( 'GENERATOR' ) as StringsType;
 
-generator.register( 'GeneratorStrings', GeneratorStrings );
-
 export default GeneratorStrings;
