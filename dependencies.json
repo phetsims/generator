@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "generator": {
-    "sha": "852f2336037a43d224c16e94db2039830a14d256",
+    "sha": "7f1ae803d014650e97a480aaaa5ade16977b2488",
     "branch": "1.0"
   },
   "joist": {
@@ -57,7 +57,7 @@
     "branch": "HEAD"
   },
   "phet-io-wrappers": {
-    "sha": "60a87e7ba4fd4b94985ad6daa189b8fe17c910d3",
+    "sha": "a767ab47a2d336a6d0dd4961d87e5b2725400f68",
     "branch": "HEAD"
   },
   "phetcommon": {
